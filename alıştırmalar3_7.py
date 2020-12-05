@@ -12,9 +12,7 @@ for n in range (1,kaç):
             temp = liste[i+1]
             liste[i+1] = liste[i]
             liste[i] = temp
-        a = 0
-        if int(liste[i]) < int(liste [i+1]) :
-            a +=1
+        
         print(liste)
     print(liste)
 
